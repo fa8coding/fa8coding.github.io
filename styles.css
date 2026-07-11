@@ -208,7 +208,7 @@ h3 {
 }
 
 .role {
-  margin-bottom: 22px;
+  margin-bottom: 12px;
   color: var(--muted);
   font-size: 14px;
   line-height: 1.55;
@@ -328,6 +328,38 @@ h3 {
 
 .background-copy {
   max-width: 640px;
+}
+
+.industry-story { min-width: 0; }
+
+.employer-logos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 28px 0 0;
+  padding: 22px 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.employer-logo {
+  min-width: 0;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--soft);
+}
+
+.employer-logo img { width: auto; height: auto; object-fit: contain; }
+.employer-logo--tiktok img { max-height: 54px; border-radius: 9px; }
+.employer-logo--sf img { max-height: 58px; }
+.employer-logo--kpmg img {
+  width: min(142px, calc(100% - 12px));
+  max-width: none;
 }
 
 .facts div {
@@ -466,6 +498,14 @@ h3 {
 
   .paper-entry {
     padding: 24px 0 26px;
+  }
+
+  .employer-logos { gap: 8px; margin-top: 24px; padding-top: 18px; }
+  .employer-logo { height: 68px; }
+  .employer-logo--tiktok img { max-height: 48px; }
+  .employer-logo--sf img { max-height: 50px; }
+  .employer-logo--kpmg img {
+    width: min(110px, calc(100% - 8px));
   }
 
   .footer-inner {
