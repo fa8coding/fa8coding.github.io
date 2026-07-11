@@ -349,16 +349,13 @@ h3 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 2px;
-  background: var(--soft);
 }
 
 .employer-logo img { width: auto; height: auto; object-fit: contain; }
-.employer-logo--tiktok img { max-height: 54px; border-radius: 9px; }
-.employer-logo--sf img { max-height: 58px; }
+.employer-logo--tiktok img { max-height: 62px; border-radius: 9px; }
+.employer-logo--sf img { max-height: 67px; }
 .employer-logo--kpmg img {
-  width: min(142px, calc(100% - 12px));
+  width: min(160px, calc(100% - 12px));
   max-width: none;
 }
 
@@ -502,10 +499,10 @@ h3 {
 
   .employer-logos { gap: 8px; margin-top: 24px; padding-top: 18px; }
   .employer-logo { height: 68px; }
-  .employer-logo--tiktok img { max-height: 48px; }
-  .employer-logo--sf img { max-height: 50px; }
+  .employer-logo--tiktok img { max-height: 55px; }
+  .employer-logo--sf img { max-height: 58px; }
   .employer-logo--kpmg img {
-    width: min(110px, calc(100% - 8px));
+    width: min(123px, calc(100% - 8px));
   }
 
   .footer-inner {
