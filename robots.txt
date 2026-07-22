@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fa8coding.github.io/sitemap.xml
+Sitemap: https://qingli-super.github.io/qing/sitemap.xml
